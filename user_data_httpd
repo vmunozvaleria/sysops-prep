@@ -3,4 +3,7 @@ yum update -y
 yum install -y httpd.x86_64
 systemctl start httpd.service
 systemctl enable httpd.service
+yum install -y vsftpd
+systemctl start vsftpd.service
+systemctl enable vsftpd.service
 echo “Hello World from $(hostname -f)” > /var/www/html/index.html
