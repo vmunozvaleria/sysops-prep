@@ -1,0 +1,35 @@
+#!/bin/bash
+# Actualizar todos los paquetes
+dnf update -y
+
+# Instalar Apache
+dnf install -y httpd.x86_64
+systemctl start httpd.service
+systemctl enable httpd.service
+
+# Instalar vsftpd
+dnf install -y vsftpd
+systemctl start vsftpd.service
+systemctl enable vsftpd.service
+
+# Crear un mensaje de bienvenida para la página principal de Apache
+echo "Hello World from $(hostname -f)" > /var/www/html/index.html
+
+# Añadir usuario 'osantana' con acceso a /var/www/html
+useradd osantana -d /var/www/html -s /sbin/nologin
+passwd osantana  # Se le pedirá al administrador que establezca la contraseña
+
+# Asegurar la propiedad y los permisos adecuados para que 'osantana' pueda editar archivos
+chown -R osantana:apache /var/www/html
+chmod -R 755 /var/www/html
+find /var/www/html -type d -exec chmod 755 {} \;
+find /var/www/html -type f -exec chmod 644 {} \;
+
+# Configurar vsftpd para enjaular a los usuarios en sus directorios home
+echo "user_sub_token=\$USER" >> /etc/vsftpd/vsftpd.conf
+echo "local_root=/var/www/html" >> /etc/vsftpd/vsftpd.conf
+echo "chroot_local_user=YES" >> /etc/vsftpd/vsftpd.conf
+echo "allow_writeable_chroot=YES" >> /etc/vsftpd/vsftpd.conf
+
+# Reiniciar vsftpd para aplicar los cambios
+systemctl restart vsftpd.service
