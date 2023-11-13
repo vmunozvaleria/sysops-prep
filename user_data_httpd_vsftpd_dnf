@@ -3,21 +3,21 @@
 dnf update -y
 
 # Instalar Apache
-dnf install -y httpd.x86_64
-systemctl start httpd.service
-systemctl enable httpd.service
+dnf install -y httpd
+systemctl start httpd
+systemctl enable httpd
 
 # Instalar vsftpd
 dnf install -y vsftpd
-systemctl start vsftpd.service
-systemctl enable vsftpd.service
+systemctl start vsftpd
+systemctl enable vsftpd
 
 # Crear un mensaje de bienvenida para la página principal de Apache
 echo "Hello World from $(hostname -f)" > /var/www/html/index.html
 
 # Añadir usuario 'osantana' con acceso a /var/www/html
-useradd osantana -d /var/www/html -s /sbin/nologin
-passwd osantana  # Se le pedirá al administrador que establezca la contraseña
+useradd osantana -d /var/www/html
+echo "osantana:santi.2023" | chpasswd
 
 # Asegurar la propiedad y los permisos adecuados para que 'osantana' pueda editar archivos
 chown -R osantana:apache /var/www/html
@@ -32,4 +32,4 @@ echo "chroot_local_user=YES" >> /etc/vsftpd/vsftpd.conf
 echo "allow_writeable_chroot=YES" >> /etc/vsftpd/vsftpd.conf
 
 # Reiniciar vsftpd para aplicar los cambios
-systemctl restart vsftpd.service
+systemctl restart vsftpd
