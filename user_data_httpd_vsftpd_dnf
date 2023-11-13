@@ -25,6 +25,9 @@ chmod -R 755 /var/www/html
 find /var/www/html -type d -exec chmod 755 {} \;
 find /var/www/html -type f -exec chmod 644 {} \;
 
+#Configurar Selinux
+setsebool -P allow_ftpd_full_access 1
+
 # Configurar vsftpd para enjaular a los usuarios en sus directorios home
 echo "user_sub_token=\$USER" >> /etc/vsftpd/vsftpd.conf
 echo "local_root=/var/www/html" >> /etc/vsftpd/vsftpd.conf
