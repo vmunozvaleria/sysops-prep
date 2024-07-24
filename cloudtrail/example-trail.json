@@ -1,0 +1,3390 @@
+{
+    "Records": [{
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:06Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceStatus",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instancesSet": {
+                "items": [{
+                    "instanceId": "i-0560b66646564eabd"
+                }]
+            },
+            "filterSet": {},
+            "includeAllInstances": false
+        },
+        "responseElements": null,
+        "requestID": "719a9689-33c8-4088-a8d0-d9131f2dbac5",
+        "eventID": "7bb61170-e6c9-438f-b847-c78ed5e58b30",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:37Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceCreditSpecifications",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "DescribeInstanceCreditSpecificationsRequest": {
+                "InstanceId": {
+                    "tag": 1,
+                    "content": "i-0560b66646564eabd"
+                }
+            }
+        },
+        "responseElements": null,
+        "requestID": "b5bb0166-8456-4216-bde0-e7a8e2290b29",
+        "eventID": "1d6c85cd-74f5-47e6-b322-e5ca0594ada6",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:10:01Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "errorCode": "ValidationException",
+        "errorMessage": "1 validation error detected: Value \u0027INVALID_FOR_SUMMARY\u0027 at \u0027stateValue\u0027 failed to satisfy constraint: Member must satisfy enum value set: [INSUFFICIENT_DATA, ALARM, OK]",
+        "requestParameters": {
+            "stateValue": "INVALID_FOR_SUMMARY"
+        },
+        "responseElements": null,
+        "requestID": "b6287eff-0e8f-11e9-952e-61f0be02abdd",
+        "eventID": "beed6b8e-0fed-4637-bfdd-775a57a6a609",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:12:01Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "maxRecords": 1000,
+            "excludeAutoscalingAlarms": false
+        },
+        "responseElements": null,
+        "requestID": "fdae6e8d-0e8f-11e9-b9b8-e31971469d8d",
+        "eventID": "62094a1e-272a-42e6-84e7-b35959002d3e",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:11:53Z",
+        "eventSource": "logs.amazonaws.com",
+        "eventName": "DescribeMetricFilters",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "limit": 50
+        },
+        "responseElements": null,
+        "requestID": "f9753125-0e8f-11e9-83dd-ff2f43a7bf28",
+        "eventID": "10caab62-47f0-48b6-b9c9-e1847ccc4518",
+        "eventType": "AwsApiCall",
+        "apiVersion": "20140328",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:37Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceStatus",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instancesSet": {
+                "items": [{
+                    "instanceId": "i-0560b66646564eabd"
+                }]
+            },
+            "filterSet": {},
+            "includeAllInstances": false
+        },
+        "responseElements": null,
+        "requestID": "f3bf5f44-8768-476c-8cc5-08fb555df7be",
+        "eventID": "8a7e3c1b-ed32-441b-97df-1ce1705b9716",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:11:51Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "errorCode": "ValidationException",
+        "errorMessage": "1 validation error detected: Value \u0027INVALID_FOR_SUMMARY\u0027 at \u0027stateValue\u0027 failed to satisfy constraint: Member must satisfy enum value set: [INSUFFICIENT_DATA, ALARM, OK]",
+        "requestParameters": {
+            "stateValue": "INVALID_FOR_SUMMARY"
+        },
+        "responseElements": null,
+        "requestID": "f83c1511-0e8f-11e9-984f-f51e7e237625",
+        "eventID": "d6512f25-e371-4603-b498-5cab273d807f",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:06Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeAddresses",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "publicIpsSet": {},
+            "filterSet": {
+                "items": [{
+                    "name": "instance-id",
+                    "valueSet": {
+                        "items": [{
+                            "value": "i-0560b66646564eabd"
+                        }]
+                    }
+                }]
+            },
+            "allocationIdsSet": {}
+        },
+        "responseElements": null,
+        "requestID": "b9ddbe54-ea5a-46e9-aae1-ac9b739edb70",
+        "eventID": "a66a0a3f-8afb-47c4-852e-7d37e575a1c3",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:01Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarmHistory",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "alarmName": "CPUUtilizationTerminateInstance",
+            "maxRecords": 50
+        },
+        "responseElements": null,
+        "requestID": "927d5474-0e8f-11e9-9d29-ad8e5f8b9a2f",
+        "eventID": "b530f104-052f-4395-8b96-4797a2b3ee51",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:10:10Z",
+        "eventSource": "logs.amazonaws.com",
+        "eventName": "DescribeMetricFilters",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "limit": 50
+        },
+        "responseElements": null,
+        "requestID": "bb7a7e5c-0e8f-11e9-b319-234cb1c3dbf3",
+        "eventID": "b4ce44c7-0c13-4b15-bd82-088f06b6356d",
+        "eventType": "AwsApiCall",
+        "apiVersion": "20140328",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:06Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "maxRecords": 100
+        },
+        "responseElements": null,
+        "requestID": "71ba7d88-0e8f-11e9-857a-c386d40c9528",
+        "eventID": "16f21eb7-3baa-4419-95d6-963fe40eee55",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:01Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "errorCode": "ValidationException",
+        "errorMessage": "1 validation error detected: Value \u0027INVALID_FOR_SUMMARY\u0027 at \u0027stateValue\u0027 failed to satisfy constraint: Member must satisfy enum value set: [INSUFFICIENT_DATA, ALARM, OK]",
+        "requestParameters": {
+            "stateValue": "INVALID_FOR_SUMMARY"
+        },
+        "responseElements": null,
+        "requestID": "6eaf38e3-0e8f-11e9-857a-c386d40c9528",
+        "eventID": "139324a7-31bc-4796-9aa9-0e2d629a3819",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:08Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceStatus",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instancesSet": {
+                "items": [{
+                    "instanceId": "i-0560b66646564eabd"
+                }]
+            },
+            "filterSet": {},
+            "includeAllInstances": false
+        },
+        "responseElements": null,
+        "requestID": "24ddec4c-dc01-4a20-8043-f88c538e6f1d",
+        "eventID": "f8a4c6db-66ab-43f8-8b87-14e220146ea6",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:08Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceCreditSpecifications",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "DescribeInstanceCreditSpecificationsRequest": {
+                "InstanceId": {
+                    "tag": 1,
+                    "content": "i-0560b66646564eabd"
+                }
+            }
+        },
+        "responseElements": null,
+        "requestID": "a98a93a7-ed7e-49e2-81fc-0a203725d01b",
+        "eventID": "120c7bee-9b83-4967-b443-2b5422423008",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:08Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceAttribute",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instanceId": "i-0560b66646564eabd",
+            "attribute": "disableApiTermination"
+        },
+        "responseElements": null,
+        "requestID": "c9ef81ad-9e77-45d5-b397-75ffab2845bf",
+        "eventID": "7af756d7-a675-40c7-8605-8a5116e2526b",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:08Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeVolumes",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "volumeSet": {
+                "items": [{
+                    "volumeId": "vol-0b8dbca2b1af7c8dd"
+                }]
+            },
+            "filterSet": {
+                "items": [{
+                    "name": "attachment.status",
+                    "valueSet": {
+                        "items": [{
+                            "value": "attaching"
+                        }]
+                    }
+                }]
+            }
+        },
+        "responseElements": null,
+        "requestID": "072530e3-c2f2-4774-a08f-878b27071dd5",
+        "eventID": "21fcfeef-2d00-443d-a6b9-ab7e30ada1cd",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:37Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeTags",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "maxResults": 10000,
+            "filterSet": {
+                "items": [{
+                    "name": "resource-id",
+                    "valueSet": {
+                        "items": [{
+                            "value": "i-0560b66646564eabd"
+                        }]
+                    }
+                }]
+            }
+        },
+        "responseElements": null,
+        "requestID": "e1260c24-a78f-4ae8-b99e-ab2d6ec59d4e",
+        "eventID": "0e0ea755-3551-4a50-ba94-d404b9a11ebc",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:08Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeVolumeStatus",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "volumeSet": {
+                "items": [{
+                    "volumeId": "vol-0b8dbca2b1af7c8dd"
+                }]
+            },
+            "filterSet": {
+                "items": [{
+                    "name": "volume-status.status",
+                    "valueSet": {
+                        "items": [{
+                            "value": "impaired"
+                        }]
+                    }
+                }, {
+                    "name": "volume-status.details-name",
+                    "valueSet": {
+                        "items": [{
+                            "value": "io-enabled"
+                        }]
+                    }
+                }, {
+                    "name": "volume-status.details-status",
+                    "valueSet": {
+                        "items": [{
+                            "value": "failed"
+                        }]
+                    }
+                }]
+            }
+        },
+        "responseElements": null,
+        "requestID": "4e13515c-1566-4fda-85f6-b04c9bf03052",
+        "eventID": "52a3751a-b970-4d28-af63-f19b625a46cf",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:08Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeTags",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "maxResults": 10000,
+            "filterSet": {
+                "items": [{
+                    "name": "resource-id",
+                    "valueSet": {
+                        "items": [{
+                            "value": "i-0560b66646564eabd"
+                        }]
+                    }
+                }]
+            }
+        },
+        "responseElements": null,
+        "requestID": "c19b6018-f6cf-4dac-99b5-2439de6ac62e",
+        "eventID": "64c72b30-c197-4454-a3b0-56a9ae84accf",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:08Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceStatus",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instancesSet": {
+                "items": [{
+                    "instanceId": "i-0560b66646564eabd"
+                }]
+            },
+            "filterSet": {},
+            "includeAllInstances": true
+        },
+        "responseElements": null,
+        "requestID": "eef8db42-f34d-4742-bd25-62c350e160d0",
+        "eventID": "c1b55c71-9874-462e-9222-375d8c62b6fe",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:08Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstances",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instancesSet": {
+                "items": [{
+                    "instanceId": "i-0560b66646564eabd"
+                }]
+            },
+            "filterSet": {}
+        },
+        "responseElements": null,
+        "requestID": "9cbc3368-2b3f-48c5-ac68-ad125ae67881",
+        "eventID": "37006038-d70b-4d5c-9b7e-e42f8dee8168",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:07:35Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "maxRecords": 100
+        },
+        "responseElements": null,
+        "requestID": "5f69c513-0e8f-11e9-9d29-ad8e5f8b9a2f",
+        "eventID": "93e9ab71-aafe-4554-9660-5aa9e19dbcba",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:07Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "errorCode": "ValidationException",
+        "errorMessage": "1 validation error detected: Value \u0027INVALID_FOR_SUMMARY\u0027 at \u0027stateValue\u0027 failed to satisfy constraint: Member must satisfy enum value set: [INSUFFICIENT_DATA, ALARM, OK]",
+        "requestParameters": {
+            "stateValue": "INVALID_FOR_SUMMARY"
+        },
+        "responseElements": null,
+        "requestID": "72b1d5d0-0e8f-11e9-9d29-ad8e5f8b9a2f",
+        "eventID": "b0ee5945-063b-4bfa-90de-20c76081ca11",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:07:36Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeVolumeStatus",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "volumeSet": {
+                "items": [{
+                    "volumeId": "vol-0b8dbca2b1af7c8dd"
+                }]
+            },
+            "filterSet": {
+                "items": [{
+                    "name": "volume-status.status",
+                    "valueSet": {
+                        "items": [{
+                            "value": "impaired"
+                        }]
+                    }
+                }, {
+                    "name": "volume-status.details-name",
+                    "valueSet": {
+                        "items": [{
+                            "value": "io-enabled"
+                        }]
+                    }
+                }, {
+                    "name": "volume-status.details-status",
+                    "valueSet": {
+                        "items": [{
+                            "value": "failed"
+                        }]
+                    }
+                }]
+            }
+        },
+        "responseElements": null,
+        "requestID": "3e08f3d2-0002-4937-8659-6b5ca61b618f",
+        "eventID": "eccb75e6-d1eb-4f07-b4b3-f3e3c5ae644a",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:07:36Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceStatus",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instancesSet": {
+                "items": [{
+                    "instanceId": "i-0560b66646564eabd"
+                }]
+            },
+            "filterSet": {},
+            "includeAllInstances": true
+        },
+        "responseElements": null,
+        "requestID": "2f16603a-5593-45f9-a4ff-5f8c31436edc",
+        "eventID": "aa480ff0-d2b4-41bd-90d0-72f272b53e73",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:07:36Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeVolumes",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "volumeSet": {
+                "items": [{
+                    "volumeId": "vol-0b8dbca2b1af7c8dd"
+                }]
+            },
+            "filterSet": {
+                "items": [{
+                    "name": "attachment.status",
+                    "valueSet": {
+                        "items": [{
+                            "value": "attaching"
+                        }]
+                    }
+                }]
+            }
+        },
+        "responseElements": null,
+        "requestID": "323c5a2c-8ca7-4786-a714-d32c8e11e34b",
+        "eventID": "de896d8a-def4-4956-b539-e90d356a1d27",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:06Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeTags",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "maxResults": 10000,
+            "filterSet": {
+                "items": [{
+                    "name": "resource-id",
+                    "valueSet": {
+                        "items": [{
+                            "value": "i-0560b66646564eabd"
+                        }]
+                    }
+                }]
+            }
+        },
+        "responseElements": null,
+        "requestID": "7d75e87a-61d7-4f54-a97b-c6cfe5c8f799",
+        "eventID": "20c85eee-9683-4f50-86b8-b8181615851f",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:07:36Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstances",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instancesSet": {
+                "items": [{
+                    "instanceId": "i-0560b66646564eabd"
+                }]
+            },
+            "filterSet": {}
+        },
+        "responseElements": null,
+        "requestID": "70528c59-a7e9-4f65-9412-934429cec62c",
+        "eventID": "ed770669-d5cd-46fc-97c7-1d4ca1d665af",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:13Z",
+        "eventSource": "logs.amazonaws.com",
+        "eventName": "DescribeMetricFilters",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "limit": 50
+        },
+        "responseElements": null,
+        "requestID": "75db296d-0e8f-11e9-aeef-4bd9554ec409",
+        "eventID": "c3db04af-f1e2-4b2a-801c-eae2da2f2afe",
+        "eventType": "AwsApiCall",
+        "apiVersion": "20140328",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:12:01Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "errorCode": "ValidationException",
+        "errorMessage": "1 validation error detected: Value \u0027INVALID_FOR_SUMMARY\u0027 at \u0027stateValue\u0027 failed to satisfy constraint: Member must satisfy enum value set: [INSUFFICIENT_DATA, ALARM, OK]",
+        "requestParameters": {
+            "stateValue": "INVALID_FOR_SUMMARY"
+        },
+        "responseElements": null,
+        "requestID": "fdad5c7d-0e8f-11e9-857a-c386d40c9528",
+        "eventID": "062b7960-fb46-4289-a529-339f37102cf1",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:03Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "maxRecords": 100,
+            "excludeAutoscalingAlarms": false,
+            "alarmNames": ["CPUUtilizationTerminateInstance"]
+        },
+        "responseElements": null,
+        "requestID": "93afb9a1-0e8f-11e9-94df-9f7fcda55e7f",
+        "eventID": "2f53ec77-f0f7-4f7a-983f-ddca51c60395",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:37Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstances",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instancesSet": {
+                "items": [{
+                    "instanceId": "i-0560b66646564eabd"
+                }]
+            },
+            "filterSet": {}
+        },
+        "responseElements": null,
+        "requestID": "d32d2f5d-1d5b-41f5-aad1-7d362d512746",
+        "eventID": "38662115-de68-4fb9-a8b0-b04bd748cc05",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:37Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeVolumes",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "volumeSet": {
+                "items": [{
+                    "volumeId": "vol-0b8dbca2b1af7c8dd"
+                }]
+            },
+            "filterSet": {
+                "items": [{
+                    "name": "attachment.status",
+                    "valueSet": {
+                        "items": [{
+                            "value": "attaching"
+                        }]
+                    }
+                }]
+            }
+        },
+        "responseElements": null,
+        "requestID": "2d10a7ff-a9c9-45ff-8ec5-ea04238f46f7",
+        "eventID": "cb26f028-809f-44bc-a0f7-d46ba0c0ea51",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:37Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceStatus",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instancesSet": {
+                "items": [{
+                    "instanceId": "i-0560b66646564eabd"
+                }]
+            },
+            "filterSet": {},
+            "includeAllInstances": true
+        },
+        "responseElements": null,
+        "requestID": "5a70dccf-42fe-44e0-9ac5-1a7f58c7308b",
+        "eventID": "47791821-7e75-4787-9d1f-2d132b7362c8",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:37Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeVolumeStatus",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "volumeSet": {
+                "items": [{
+                    "volumeId": "vol-0b8dbca2b1af7c8dd"
+                }]
+            },
+            "filterSet": {
+                "items": [{
+                    "name": "volume-status.status",
+                    "valueSet": {
+                        "items": [{
+                            "value": "impaired"
+                        }]
+                    }
+                }, {
+                    "name": "volume-status.details-name",
+                    "valueSet": {
+                        "items": [{
+                            "value": "io-enabled"
+                        }]
+                    }
+                }, {
+                    "name": "volume-status.details-status",
+                    "valueSet": {
+                        "items": [{
+                            "value": "failed"
+                        }]
+                    }
+                }]
+            }
+        },
+        "responseElements": null,
+        "requestID": "c600c566-f207-437e-ae05-85971988d51d",
+        "eventID": "d8806101-3c07-47ee-917d-46da176f362f",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:37Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceCreditSpecifications",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "DescribeInstanceCreditSpecificationsRequest": {
+                "InstanceId": {
+                    "tag": 1,
+                    "content": "i-0560b66646564eabd"
+                }
+            }
+        },
+        "responseElements": null,
+        "requestID": "10b7b07e-b42b-4bb6-922e-2581bfa9f755",
+        "eventID": "ec0a6d78-f5a4-4c51-874a-eb330d8d81f5",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:07:36Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceCreditSpecifications",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "DescribeInstanceCreditSpecificationsRequest": {
+                "InstanceId": {
+                    "tag": 1,
+                    "content": "i-0560b66646564eabd"
+                }
+            }
+        },
+        "responseElements": null,
+        "requestID": "f83464e0-7249-40d6-bc28-8e8d857896f8",
+        "eventID": "7e63b0c2-c587-4910-976d-ee7fe98485de",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:07:51Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "errorCode": "ValidationException",
+        "errorMessage": "1 validation error detected: Value \u0027INVALID_FOR_SUMMARY\u0027 at \u0027stateValue\u0027 failed to satisfy constraint: Member must satisfy enum value set: [INSUFFICIENT_DATA, ALARM, OK]",
+        "requestParameters": {
+            "stateValue": "INVALID_FOR_SUMMARY"
+        },
+        "responseElements": null,
+        "requestID": "69334313-0e8f-11e9-a248-473f5f983b46",
+        "eventID": "60a3f4c2-bea7-477a-a86b-bfe741e27296",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:37Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceAttribute",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instanceId": "i-0560b66646564eabd",
+            "attribute": "disableApiTermination"
+        },
+        "responseElements": null,
+        "requestID": "c9487068-3f58-4917-81f8-0b6b794dad0c",
+        "eventID": "bb8cfd3c-949b-497b-934a-ec72dbdf7a3e",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:10:07Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "errorCode": "ValidationException",
+        "errorMessage": "1 validation error detected: Value \u0027INVALID_FOR_SUMMARY\u0027 at \u0027stateValue\u0027 failed to satisfy constraint: Member must satisfy enum value set: [INSUFFICIENT_DATA, ALARM, OK]",
+        "requestParameters": {
+            "stateValue": "INVALID_FOR_SUMMARY"
+        },
+        "responseElements": null,
+        "requestID": "ba3f8de3-0e8f-11e9-ad15-13cb579d49f6",
+        "eventID": "952e3207-dfe1-48f6-a789-15588a32a8ef",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:37Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeAddresses",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "publicIpsSet": {},
+            "filterSet": {
+                "items": [{
+                    "name": "instance-id",
+                    "valueSet": {
+                        "items": [{
+                            "value": "i-0560b66646564eabd"
+                        }]
+                    }
+                }]
+            },
+            "allocationIdsSet": {}
+        },
+        "responseElements": null,
+        "requestID": "aa8b0462-b97c-4609-99af-d29d1825cdb1",
+        "eventID": "90980e28-8b7a-4de7-9c0a-2147e62794b3",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:08Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceCreditSpecifications",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "DescribeInstanceCreditSpecificationsRequest": {
+                "InstanceId": {
+                    "tag": 1,
+                    "content": "i-0560b66646564eabd"
+                }
+            }
+        },
+        "responseElements": null,
+        "requestID": "84362cc4-61c9-475f-bbde-a3231630856c",
+        "eventID": "4c5496df-7c07-4566-948c-0a1fb6dd0b73",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:37Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstances",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instancesSet": {
+                "items": [{
+                    "instanceId": "i-0560b66646564eabd"
+                }]
+            },
+            "filterSet": {}
+        },
+        "responseElements": null,
+        "requestID": "897a0ae9-4153-419b-add6-d5b4348fbed6",
+        "eventID": "fbea062a-df67-415b-b492-20e967ba18a0",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:06Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceCreditSpecifications",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "DescribeInstanceCreditSpecificationsRequest": {
+                "InstanceId": {
+                    "tag": 1,
+                    "content": "i-0560b66646564eabd"
+                }
+            }
+        },
+        "responseElements": null,
+        "requestID": "4d7d44a8-7ad6-4811-b963-154ecdbe25c8",
+        "eventID": "55216100-c178-4798-9060-3a0905420d44",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:11:01Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "errorCode": "ValidationException",
+        "errorMessage": "1 validation error detected: Value \u0027INVALID_FOR_SUMMARY\u0027 at \u0027stateValue\u0027 failed to satisfy constraint: Member must satisfy enum value set: [INSUFFICIENT_DATA, ALARM, OK]",
+        "requestParameters": {
+            "stateValue": "INVALID_FOR_SUMMARY"
+        },
+        "responseElements": null,
+        "requestID": "d9ec126e-0e8f-11e9-b525-3d7e2370df98",
+        "eventID": "5f2c9ecf-cab2-40bb-be8e-700315ddcdd2",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:10:52Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "errorCode": "ValidationException",
+        "errorMessage": "1 validation error detected: Value \u0027INVALID_FOR_SUMMARY\u0027 at \u0027stateValue\u0027 failed to satisfy constraint: Member must satisfy enum value set: [INSUFFICIENT_DATA, ALARM, OK]",
+        "requestParameters": {
+            "stateValue": "INVALID_FOR_SUMMARY"
+        },
+        "responseElements": null,
+        "requestID": "d48ea18f-0e8f-11e9-a00c-85ac949bb7ee",
+        "eventID": "7338cc8e-9ab7-48b0-844c-baf95674a93e",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:51Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "errorCode": "ValidationException",
+        "errorMessage": "1 validation error detected: Value \u0027INVALID_FOR_SUMMARY\u0027 at \u0027stateValue\u0027 failed to satisfy constraint: Member must satisfy enum value set: [INSUFFICIENT_DATA, ALARM, OK]",
+        "requestParameters": {
+            "stateValue": "INVALID_FOR_SUMMARY"
+        },
+        "responseElements": null,
+        "requestID": "8cf3a330-0e8f-11e9-857a-c386d40c9528",
+        "eventID": "f207b543-e463-4b2f-8323-167fa9664ec3",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:01Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "errorCode": "ValidationException",
+        "errorMessage": "1 validation error detected: Value \u0027INVALID_FOR_SUMMARY\u0027 at \u0027stateValue\u0027 failed to satisfy constraint: Member must satisfy enum value set: [INSUFFICIENT_DATA, ALARM, OK]",
+        "requestParameters": {
+            "stateValue": "INVALID_FOR_SUMMARY"
+        },
+        "responseElements": null,
+        "requestID": "92689371-0e8f-11e9-b7f1-6f1468f63197",
+        "eventID": "04e326b5-fdfc-4083-ba5e-9cd4663296f8",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:10:03Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "maxRecords": 100,
+            "excludeAutoscalingAlarms": false,
+            "alarmNames": ["CPUUtilizationTerminateInstance"]
+        },
+        "responseElements": null,
+        "requestID": "b76d0c10-0e8f-11e9-860a-cba1a670b4ca",
+        "eventID": "47158eb3-b7c6-4c08-9c67-6a3273a4ba08",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:01Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "maxRecords": 1000,
+            "excludeAutoscalingAlarms": false
+        },
+        "responseElements": null,
+        "requestID": "6eb37f26-0e8f-11e9-8865-3b12e2c35087",
+        "eventID": "91eae0ef-96a3-41cb-b6bc-e03c960bea26",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:01Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarmHistory",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "alarmName": "CPUUtilizationTerminateInstance",
+            "maxRecords": 50
+        },
+        "responseElements": null,
+        "requestID": "6ec50b58-0e8f-11e9-8865-3b12e2c35087",
+        "eventID": "c6c6b314-9b2c-4509-9622-19387af0347e",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:37Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstances",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instancesSet": {
+                "items": [{
+                    "instanceId": "i-0560b66646564eabd"
+                }]
+            },
+            "filterSet": {}
+        },
+        "responseElements": null,
+        "requestID": "f0ca98f0-6f71-4777-b42b-6193811b5a67",
+        "eventID": "9ef551fd-a33f-42e3-a214-27c83ec6e147",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:37Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeVolumeStatus",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "volumeSet": {
+                "items": [{
+                    "volumeId": "vol-0b8dbca2b1af7c8dd"
+                }]
+            },
+            "filterSet": {
+                "items": [{
+                    "name": "volume-status.status",
+                    "valueSet": {
+                        "items": [{
+                            "value": "impaired"
+                        }]
+                    }
+                }, {
+                    "name": "volume-status.details-name",
+                    "valueSet": {
+                        "items": [{
+                            "value": "io-enabled"
+                        }]
+                    }
+                }, {
+                    "name": "volume-status.details-status",
+                    "valueSet": {
+                        "items": [{
+                            "value": "failed"
+                        }]
+                    }
+                }]
+            }
+        },
+        "responseElements": null,
+        "requestID": "57df65b4-cd9d-4b12-b944-90508f5ae603",
+        "eventID": "e48589db-f5d5-4f7c-b809-8321ad9c09ae",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:37Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceStatus",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instancesSet": {
+                "items": [{
+                    "instanceId": "i-0560b66646564eabd"
+                }]
+            },
+            "filterSet": {},
+            "includeAllInstances": true
+        },
+        "responseElements": null,
+        "requestID": "d37f1136-312c-4134-8cb4-8dd9b1e2b4ac",
+        "eventID": "7763999e-f3c1-458f-8657-71cb18cbbaf9",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:37Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeVolumes",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "volumeSet": {
+                "items": [{
+                    "volumeId": "vol-0b8dbca2b1af7c8dd"
+                }]
+            },
+            "filterSet": {
+                "items": [{
+                    "name": "attachment.status",
+                    "valueSet": {
+                        "items": [{
+                            "value": "attaching"
+                        }]
+                    }
+                }]
+            }
+        },
+        "responseElements": null,
+        "requestID": "ca324bd7-cf4b-4602-9ec6-b5125ea5d352",
+        "eventID": "7acef9d4-fff4-4950-a675-7b54482ba678",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:06Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeVolumeStatus",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "volumeSet": {
+                "items": [{
+                    "volumeId": "vol-0b8dbca2b1af7c8dd"
+                }]
+            },
+            "filterSet": {
+                "items": [{
+                    "name": "volume-status.status",
+                    "valueSet": {
+                        "items": [{
+                            "value": "impaired"
+                        }]
+                    }
+                }, {
+                    "name": "volume-status.details-name",
+                    "valueSet": {
+                        "items": [{
+                            "value": "io-enabled"
+                        }]
+                    }
+                }, {
+                    "name": "volume-status.details-status",
+                    "valueSet": {
+                        "items": [{
+                            "value": "failed"
+                        }]
+                    }
+                }]
+            }
+        },
+        "responseElements": null,
+        "requestID": "4be22637-99ae-4da1-88d2-e357289b884f",
+        "eventID": "8fbcfc9d-bbd9-4bf0-9ad7-1edd655d4b63",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:06Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceStatus",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instancesSet": {
+                "items": [{
+                    "instanceId": "i-0560b66646564eabd"
+                }]
+            },
+            "filterSet": {},
+            "includeAllInstances": true
+        },
+        "responseElements": null,
+        "requestID": "d5a1c9d3-1894-4c57-8260-49cf88918832",
+        "eventID": "977213ac-8c81-488a-9aab-ec7cb5ce8c9e",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:06Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeVolumes",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "volumeSet": {
+                "items": [{
+                    "volumeId": "vol-0b8dbca2b1af7c8dd"
+                }]
+            },
+            "filterSet": {
+                "items": [{
+                    "name": "attachment.status",
+                    "valueSet": {
+                        "items": [{
+                            "value": "attaching"
+                        }]
+                    }
+                }]
+            }
+        },
+        "responseElements": null,
+        "requestID": "7f260d85-5476-4d5e-b039-23b8877e8050",
+        "eventID": "cdb1e090-39be-4762-8c1f-492086900791",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:06Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstances",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instancesSet": {
+                "items": [{
+                    "instanceId": "i-0560b66646564eabd"
+                }]
+            },
+            "filterSet": {}
+        },
+        "responseElements": null,
+        "requestID": "42713951-7a40-4bb1-8f2e-61fe9b976486",
+        "eventID": "aebfdb9f-e91b-4d89-8bc6-37a892d3752f",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:37Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "maxRecords": 100
+        },
+        "responseElements": null,
+        "requestID": "8438d532-0e8f-11e9-af79-b9a83c6abe8a",
+        "eventID": "65af1745-0765-42cd-82f4-00a2bf255093",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:10:01Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "maxRecords": 1000,
+            "excludeAutoscalingAlarms": false
+        },
+        "responseElements": null,
+        "requestID": "b626d114-0e8f-11e9-9758-c17b359e1123",
+        "eventID": "048c6c98-4377-4b63-a1b7-5a579dad14d7",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:08Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "maxRecords": 100
+        },
+        "responseElements": null,
+        "requestID": "96b50a89-0e8f-11e9-b525-3d7e2370df98",
+        "eventID": "9fb8f03c-daba-4165-ba77-74222fbedc11",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:01Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "maxRecords": 1000,
+            "excludeAutoscalingAlarms": false
+        },
+        "responseElements": null,
+        "requestID": "926b2c2c-0e8f-11e9-952e-61f0be02abdd",
+        "eventID": "d7da27a4-46f0-4abd-802a-1a3b8cb549db",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:11:01Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarmHistory",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "alarmName": "CPUUtilizationTerminateInstance",
+            "maxRecords": 50
+        },
+        "responseElements": null,
+        "requestID": "da13711f-0e8f-11e9-b9b8-e31971469d8d",
+        "eventID": "ee240ff6-edb0-4d90-8367-2d43e0061075",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:08Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstances",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instancesSet": {
+                "items": [{
+                    "instanceId": "i-0560b66646564eabd"
+                }]
+            },
+            "filterSet": {}
+        },
+        "responseElements": null,
+        "requestID": "0a2dab35-e3ae-4a42-a402-884d78451e9f",
+        "eventID": "92ea5ee9-32ce-4abb-950b-46b78838fed9",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:11:07Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "errorCode": "ValidationException",
+        "errorMessage": "1 validation error detected: Value \u0027INVALID_FOR_SUMMARY\u0027 at \u0027stateValue\u0027 failed to satisfy constraint: Member must satisfy enum value set: [INSUFFICIENT_DATA, ALARM, OK]",
+        "requestParameters": {
+            "stateValue": "INVALID_FOR_SUMMARY"
+        },
+        "responseElements": null,
+        "requestID": "de00d7eb-0e8f-11e9-984f-f51e7e237625",
+        "eventID": "908136e5-bf41-4b94-85b8-dcac05886f69",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:06Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceCreditSpecifications",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "DescribeInstanceCreditSpecificationsRequest": {
+                "InstanceId": {
+                    "tag": 1,
+                    "content": "i-0560b66646564eabd"
+                }
+            }
+        },
+        "responseElements": null,
+        "requestID": "c440d85d-24e4-4605-a8c1-04240cef6a47",
+        "eventID": "4f96864c-f36f-4c65-98bf-7de1393ab201",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:08Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceAttribute",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instanceId": "i-0560b66646564eabd",
+            "attribute": "disableApiTermination"
+        },
+        "responseElements": null,
+        "requestID": "c500d43d-27c4-4c66-b7c4-9dca4a7093f8",
+        "eventID": "09fefe15-b8f6-498c-a4e2-4a1eda4bc3ed",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:08Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceStatus",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instancesSet": {
+                "items": [{
+                    "instanceId": "i-0560b66646564eabd"
+                }]
+            },
+            "filterSet": {},
+            "includeAllInstances": true
+        },
+        "responseElements": null,
+        "requestID": "cdae3d17-40c3-4aee-9061-53b912e7954b",
+        "eventID": "a43ced5a-fc71-47f4-b911-73f07896ebfa",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:08Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstances",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instancesSet": {
+                "items": [{
+                    "instanceId": "i-0560b66646564eabd"
+                }]
+            },
+            "filterSet": {}
+        },
+        "responseElements": null,
+        "requestID": "abe0f652-66d9-4c25-a366-6d6a2ed8fd07",
+        "eventID": "0907020d-ce24-4f2b-b72b-b73333af44e5",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:08Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeVolumeStatus",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "volumeSet": {
+                "items": [{
+                    "volumeId": "vol-0b8dbca2b1af7c8dd"
+                }]
+            },
+            "filterSet": {
+                "items": [{
+                    "name": "volume-status.status",
+                    "valueSet": {
+                        "items": [{
+                            "value": "impaired"
+                        }]
+                    }
+                }, {
+                    "name": "volume-status.details-name",
+                    "valueSet": {
+                        "items": [{
+                            "value": "io-enabled"
+                        }]
+                    }
+                }, {
+                    "name": "volume-status.details-status",
+                    "valueSet": {
+                        "items": [{
+                            "value": "failed"
+                        }]
+                    }
+                }]
+            }
+        },
+        "responseElements": null,
+        "requestID": "0eabb124-41bb-4854-91ed-cd2307a6ccaf",
+        "eventID": "e25c4101-c416-4600-8b3c-3fcd4de8addb",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:08Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeVolumes",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "volumeSet": {
+                "items": [{
+                    "volumeId": "vol-0b8dbca2b1af7c8dd"
+                }]
+            },
+            "filterSet": {
+                "items": [{
+                    "name": "attachment.status",
+                    "valueSet": {
+                        "items": [{
+                            "value": "attaching"
+                        }]
+                    }
+                }]
+            }
+        },
+        "responseElements": null,
+        "requestID": "d2cc33d2-7b4e-4df2-8ba7-b67bfd99d7d0",
+        "eventID": "f54f4746-8f47-41aa-9ca4-05366d833dff",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:03Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "maxRecords": 100,
+            "excludeAutoscalingAlarms": false,
+            "alarmNames": ["CPUUtilizationTerminateInstance"]
+        },
+        "responseElements": null,
+        "requestID": "6fec9a96-0e8f-11e9-b2fc-616ae8c91b09",
+        "eventID": "583e8e3c-728a-4c27-b8a8-c578077d7980",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:07:35Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstances",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instancesSet": {
+                "items": [{
+                    "instanceId": "i-0560b66646564eabd"
+                }]
+            },
+            "filterSet": {}
+        },
+        "responseElements": null,
+        "requestID": "0e12f846-52ba-4519-8c08-787adbdfb99c",
+        "eventID": "44891460-8b37-41df-a490-9811157f5f3f",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:12:07Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "errorCode": "ValidationException",
+        "errorMessage": "1 validation error detected: Value \u0027INVALID_FOR_SUMMARY\u0027 at \u0027stateValue\u0027 failed to satisfy constraint: Member must satisfy enum value set: [INSUFFICIENT_DATA, ALARM, OK]",
+        "requestParameters": {
+            "stateValue": "INVALID_FOR_SUMMARY"
+        },
+        "responseElements": null,
+        "requestID": "01baa764-0e90-11e9-8865-3b12e2c35087",
+        "eventID": "ed3d6b28-6ade-4f0f-9175-29dd2841e7d9",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:08Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeAddresses",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "publicIpsSet": {},
+            "filterSet": {
+                "items": [{
+                    "name": "instance-id",
+                    "valueSet": {
+                        "items": [{
+                            "value": "i-0560b66646564eabd"
+                        }]
+                    }
+                }]
+            },
+            "allocationIdsSet": {}
+        },
+        "responseElements": null,
+        "requestID": "24312c75-706e-4ee9-b452-26004a5885a7",
+        "eventID": "766aeb83-e385-41d2-b16d-4aa68062cf13",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:10:01Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarmHistory",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "alarmName": "CPUUtilizationTerminateInstance",
+            "maxRecords": 50
+        },
+        "responseElements": null,
+        "requestID": "b6368821-0e8f-11e9-b7f1-6f1468f63197",
+        "eventID": "d9232b25-7357-4ed1-bcb2-31c6fdf78e61",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:12:03Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "maxRecords": 100,
+            "excludeAutoscalingAlarms": false,
+            "alarmNames": ["CPUUtilizationTerminateInstance"]
+        },
+        "responseElements": null,
+        "requestID": "ff1f63a4-0e8f-11e9-906f-6bb1d71f995c",
+        "eventID": "958dfcdf-eacf-4c6d-8c22-d2916d3174ee",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:11:03Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "maxRecords": 100,
+            "excludeAutoscalingAlarms": false,
+            "alarmNames": ["CPUUtilizationTerminateInstance"]
+        },
+        "responseElements": null,
+        "requestID": "db39055b-0e8f-11e9-9a72-cfed6af3b513",
+        "eventID": "cb463b69-7e26-4566-ac6a-70d156a89bc1",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:12:01Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarmHistory",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "alarmName": "CPUUtilizationTerminateInstance",
+            "maxRecords": 50
+        },
+        "responseElements": null,
+        "requestID": "fdc1cfaf-0e8f-11e9-9d29-ad8e5f8b9a2f",
+        "eventID": "cb4f0977-bf7d-4f25-a4eb-d4c2baf90d7e",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:06Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstances",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instancesSet": {
+                "items": [{
+                    "instanceId": "i-0560b66646564eabd"
+                }]
+            },
+            "filterSet": {}
+        },
+        "responseElements": null,
+        "requestID": "c83a60da-d72d-432c-be4b-53bbc238cc6d",
+        "eventID": "be85eeea-6469-4c9e-9147-422b8029b9cd",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:06Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceAttribute",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instanceId": "i-0560b66646564eabd",
+            "attribute": "disableApiTermination"
+        },
+        "responseElements": null,
+        "requestID": "3207dc2c-491e-426f-b796-546bf7bb2b05",
+        "eventID": "67a065d8-660a-4b52-ae44-3a2c109681f8",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:06Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceAttribute",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instanceId": "i-0560b66646564eabd",
+            "attribute": "disableApiTermination"
+        },
+        "responseElements": null,
+        "requestID": "32a834aa-7c53-41ae-acf1-b95d80d01338",
+        "eventID": "c00a0de9-0098-43db-a256-80dabda37c7d",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:07Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "errorCode": "ValidationException",
+        "errorMessage": "1 validation error detected: Value \u0027INVALID_FOR_SUMMARY\u0027 at \u0027stateValue\u0027 failed to satisfy constraint: Member must satisfy enum value set: [INSUFFICIENT_DATA, ALARM, OK]",
+        "requestParameters": {
+            "stateValue": "INVALID_FOR_SUMMARY"
+        },
+        "responseElements": null,
+        "requestID": "967b0ed9-0e8f-11e9-ad15-13cb579d49f6",
+        "eventID": "aa056588-b1c7-4423-b8ca-d6debc71e32c",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:09:52Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "errorCode": "ValidationException",
+        "errorMessage": "1 validation error detected: Value \u0027INVALID_FOR_SUMMARY\u0027 at \u0027stateValue\u0027 failed to satisfy constraint: Member must satisfy enum value set: [INSUFFICIENT_DATA, ALARM, OK]",
+        "requestParameters": {
+            "stateValue": "INVALID_FOR_SUMMARY"
+        },
+        "responseElements": null,
+        "requestID": "b0c51966-0e8f-11e9-ad15-13cb579d49f6",
+        "eventID": "623d09f0-72eb-43df-8247-b82f58b8672e",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:37Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceAttribute",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instanceId": "i-0560b66646564eabd",
+            "attribute": "disableApiTermination"
+        },
+        "responseElements": null,
+        "requestID": "2b678bcc-0c19-4290-8555-5de575786d4e",
+        "eventID": "8e8ba02a-73e0-4019-8eb4-6973c50fa779",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:06Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeVolumes",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "volumeSet": {
+                "items": [{
+                    "volumeId": "vol-0b8dbca2b1af7c8dd"
+                }]
+            },
+            "filterSet": {
+                "items": [{
+                    "name": "attachment.status",
+                    "valueSet": {
+                        "items": [{
+                            "value": "attaching"
+                        }]
+                    }
+                }]
+            }
+        },
+        "responseElements": null,
+        "requestID": "4359cb1d-50b9-4ffc-b194-5a6a58878c90",
+        "eventID": "480eb376-87d1-4a29-b6a6-7c73002dcc0e",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:06Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeVolumeStatus",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "volumeSet": {
+                "items": [{
+                    "volumeId": "vol-0b8dbca2b1af7c8dd"
+                }]
+            },
+            "filterSet": {
+                "items": [{
+                    "name": "volume-status.status",
+                    "valueSet": {
+                        "items": [{
+                            "value": "impaired"
+                        }]
+                    }
+                }, {
+                    "name": "volume-status.details-name",
+                    "valueSet": {
+                        "items": [{
+                            "value": "io-enabled"
+                        }]
+                    }
+                }, {
+                    "name": "volume-status.details-status",
+                    "valueSet": {
+                        "items": [{
+                            "value": "failed"
+                        }]
+                    }
+                }]
+            }
+        },
+        "responseElements": null,
+        "requestID": "929ebba2-a459-4307-80f2-e3917139e654",
+        "eventID": "1f824ce9-a710-4ad8-820d-06224f0320f5",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:06Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstanceStatus",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instancesSet": {
+                "items": [{
+                    "instanceId": "i-0560b66646564eabd"
+                }]
+            },
+            "filterSet": {},
+            "includeAllInstances": true
+        },
+        "responseElements": null,
+        "requestID": "9b5286e7-1c5e-4343-a901-077f8ff7f729",
+        "eventID": "fc9c14d9-1983-4ebf-af84-c6edcc882dec",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q7UZPG44Y",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:08:06Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "DescribeInstances",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "instancesSet": {
+                "items": [{
+                    "instanceId": "i-0560b66646564eabd"
+                }]
+            },
+            "filterSet": {}
+        },
+        "responseElements": null,
+        "requestID": "ad2a10ee-3922-421c-8e86-af54f3e3bee2",
+        "eventID": "ba563d42-4cf7-48ed-9a24-301b3ac13a57",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }, {
+        "eventVersion": "1.04",
+        "userIdentity": {
+            "type": "Root",
+            "principalId": "387123334361",
+            "arn": "arn:aws:iam::387123334361:root",
+            "accountId": "387123334361",
+            "accessKeyId": "ASIAVUITFK3Q4FBQHR6E",
+            "userName": "datacumulus-courses",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2019-01-02T10:56:06Z"
+                }
+            },
+            "invokedBy": "signin.amazonaws.com"
+        },
+        "eventTime": "2019-01-02T13:11:01Z",
+        "eventSource": "monitoring.amazonaws.com",
+        "eventName": "DescribeAlarms",
+        "awsRegion": "eu-west-1",
+        "sourceIPAddress": "54.238.12.43",
+        "userAgent": "signin.amazonaws.com",
+        "requestParameters": {
+            "maxRecords": 1000,
+            "excludeAutoscalingAlarms": false
+        },
+        "responseElements": null,
+        "requestID": "da02a7ed-0e8f-11e9-b7f1-6f1468f63197",
+        "eventID": "9459fe08-d6eb-458a-89d9-b8a011b3fa64",
+        "eventType": "AwsApiCall",
+        "recipientAccountId": "387123334361"
+    }]
+}
